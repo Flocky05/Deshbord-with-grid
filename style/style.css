@@ -8,6 +8,10 @@
     color: white;
     
 } */
+.total-navbar{
+    display: flex;
+
+}
 .navbar{
     display: flex;
     flex-direction: column;
@@ -28,3 +32,35 @@
     width: 50px;
     padding: 10px;
 }
+
+/* site-navbar start */
+.site-navbar{
+    width: 150px;
+    height: 100vh;
+    background-color: #D32F2F;
+    color: white;
+}
+.site-navbar-user{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.site-navbar-user img{
+    height: 50px;
+    width: 50px;
+    border-radius: 50px;
+}
+/* site-navbar end */
+
+/* header section start  */
+.header{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.users img{
+ height: 50px;
+ width: 50px;
+ border-radius: 50px;
+}
+/* header section end  */
