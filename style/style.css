@@ -97,10 +97,14 @@ body{
     border-radius: 10px;
 }
 .total-users{
-background-color:maroon;
 grid-column: 3/9;
 grid-row:4/5;
 border-radius: 10px;
+}
+.total-users img{
+    height: 200px;
+    width: 100%;
+    object-fit: cover;
 }
 .trafic-by-devices{
     background-color: skyblue;
