@@ -55,11 +55,28 @@ body{
      
 }
 /* navbar end */
+/* header section start  */
 .header{
-    background-color: aqua;
     grid-column: 3/-1;
     border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
 }
+.search-bar{
+    display: flex;
+    align-items: center;
+}
+.search-bar img{
+    height:24px;
+    width: 24px;
+}
+.header-users img{
+    height: 48px;
+    width: 48px;
+    border: 1px solid black;
+    border-radius: 50%;
+}
+/* header section end */
 .views{
     background-color: #fff;
     grid-column: 3/5;
@@ -117,10 +134,14 @@ border-radius: 10px;
     object-fit: cover;
 }
 .text{
-    background-color: cornflowerblue;
     grid-column: 3/6;
     grid-row: 5/-1;
     border-radius: 10px;
+}
+.text img{
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
 }
 .user{
     background-color: deeppink;
