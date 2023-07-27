@@ -124,11 +124,17 @@ body{
 
 /* tracif by location start */
 .trafic-by-location{
-    background-color: green;
+    background-color:#AF3535;
     grid-column: 7/9;
     grid-row: 2/4;
     border-radius: 10px;
+    color: white;
+    text-align: center;
 }
+.element{
+    gap:25px;
+}
+
 /* tracif by location end */
 .master-card{
     background-color: yellow;
