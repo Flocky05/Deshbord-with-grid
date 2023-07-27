@@ -101,18 +101,35 @@ body{
     font-size: 30px;
 }
 /* views section end */
+
+/* visits section start  */
 .visits{
-    background-color:red;
+    background-color:#AF3535;
     grid-column: 5/7;
     grid-row: 2/3;
     border-radius: 10px;
+    color: white;
+    padding: 20px;
 }
+.visits-header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+.visits-header >h3{
+    font-size: 30px;
+}
+/* visits section end */
+
+/* tracif by location start */
 .trafic-by-location{
     background-color: green;
     grid-column: 7/9;
     grid-row: 2/4;
     border-radius: 10px;
 }
+/* tracif by location end */
 .master-card{
     background-color: yellow;
     grid-column: 9/-1;
